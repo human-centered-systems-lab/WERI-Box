@@ -1,0 +1,54 @@
+{
+    "keysOrder": ["Study Setting", "Study Duration", "Number of Participants", "Study Type", "Mean Age", "Target Group", "Incentive", "Mental Health Condition", "Collection", "Administration", "Objective Data", "Subjective Data", "Intervention Type", "Trigger", "Moment of Intervention", "Regulation Type", "Emotion Regulation Strategy"],
+    
+    "buttonsOrder": {
+      "Study Setting": ["Lab", "Field", "Unknown"],
+      "Study Duration": ["< 1h", "[1h - 5h]", "(24h - 1w]", "(1w - 4w]", "> 4w", "Unknown"],
+      "Number of Participants": ["< 10", "10 - 19", "20 - 34", "35 - 49", "50 - 100", "> 100", "Unknown"],
+      "Study Type": ["Design", "Evaluation", "Feasibility"], 
+      "Mean Age": ["< 18", "18 - 24", "25 - 35", "> 35", "Unknown"], 
+      "Target Group": ["Children", "Students", "Academic Staff", "Other", "Unknown"], 
+      "Incentive": ["Incentivized", "Unknown"], 
+      "Mental Health Condition": ["No Condition", "Neurodiverse", "Anxiety/Panic Disorder", "Other"], 
+      "Collection": ["Smartwatch", "Chest Strap", "Smartphone", "Other"],
+      "Administration": ["Smartwatch", "Smartphone/APP", "Other"], 
+      "Objective Data": ["HR/HRV", "EDA/GSR", "Other", "Behavioral"], 
+      "Subjective Data": ["Emotion", "Stress/Anxiety", "Task Load", "User Experience", "No Subjective Data"], 
+      "Intervention Type": ["(Vibro-)Tactile", "Visual", "Notifications", "Other"], 
+      "Trigger": ["Objective Data", "Time-Based", "Situation Dependent", "Manual", "No Trigger/Continuous"], 
+      "Moment of Intervention": ["During", "After", "Independent"], 
+      "Regulation Type": ["Self-Regulation", "Co-Regulation"], 
+      "Emotion Regulation Strategy": ["Situation Selection", "Situation Modification", "Attentional Deployment", "Cognitive Change", "Response Modulation"]
+          },
+          
+
+    "groups": [
+      {
+        "name": "Study Design",
+        "keys": ["Study Setting", "Study Duration", "Number of Participants", "Study Type"]
+      },
+      {
+        "name": "Human Factor",
+        "keys": ["Mean Age", "Target Group", "Incentive", "Mental Health Condition"]
+      },
+      {
+        "name": "Device",
+        "keys": ["Collection", "Administration"]
+      },
+      {
+        "name": "Data",
+        "keys": ["Objective Data", "Subjective Data"]
+      },
+      {
+        "name": "Intervention",
+        "keys": ["Intervention Type", "Trigger", "Moment of Intervention"]
+      },
+      {
+        "name": "Regulation",
+        "keys": ["Regulation Type", "Emotion Regulation Strategy"]
+      }
+
+
+
+    ]
+  }
