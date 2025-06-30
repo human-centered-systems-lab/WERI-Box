@@ -1,4 +1,4 @@
-# Wearable Emotion Regulation Intervention Morphological Box
+# Wearable Emotion Regulation Intervention - Morphological Box
 
 https://github.com/human-centered-systems-lab/WERI-Box.git
 
